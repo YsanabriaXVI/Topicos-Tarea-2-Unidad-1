@@ -9,7 +9,7 @@ export class ContactView {
 
     console.log("Lista de Contactos:");
     contacts.forEach((c) => {
-      console.log(`- [${c.id}] ${c.nombre} | ${c.email} | ${c.telefono}`);
+      console.log(`ID: [${c.id}] Nombre: ${c.nombre} | Email: ${c.email} | Telefono: ${c.telefono}`);
     });
   }
 
